@@ -1,0 +1,78 @@
+
+.list{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listImage{
+    width: 200px;
+    height: 200px;
+}
+.ul{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.results{
+    margin-top: 100px;
+}
+.movie_d{
+    width: 100%;
+    text-align: center;
+}
+.movie_d:hover{
+    text-decoration: underline;
+}
+.items {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor:pointer;
+}
+.fade-in {
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.show{
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+.show button{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.filter{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.filter select{
+    border: 3px solid purple;
+    background-color: transparent;
+    color: black;
+    height:100%;
+    border-radius: 10px;
+    padding: 10px;
+}

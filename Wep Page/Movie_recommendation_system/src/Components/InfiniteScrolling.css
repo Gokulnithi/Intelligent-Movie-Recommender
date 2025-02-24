@@ -1,0 +1,40 @@
+.scroll-c{
+    width: 90%;
+    max-width: 1536px;
+    height: 300px;
+    margin-inline: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    overflow: hidden;
+}
+.item{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: scroll ;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    transition: all 0.5s ;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.item:hover{
+    transform: scale(1.12);
+    
+}
+.item:has(+:hover){
+    transform: scale(1.02);
+    opacity: 0.2;
+}
+
+.item:hover+.item{
+    transform: scale(1.02);
+    opacity: 0.2;
+}

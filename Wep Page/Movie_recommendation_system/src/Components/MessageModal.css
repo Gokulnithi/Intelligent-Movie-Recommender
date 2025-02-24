@@ -1,0 +1,45 @@
+.message-modal {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .message-modal.success {
+    border: 1px solid green;
+    color: green;
+  }
+  
+  .message-modal.error {
+    border: 1px solid red;
+    color: red;
+  }
+  
+  .message-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .message-modal.success {
+    border-left: 5px solid green;
+  }
+  
+  .message-modal.error {
+    border-left: 5px solid red;
+  }
+  

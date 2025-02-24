@@ -1,0 +1,73 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-detail-page *{
+    color: white;
+}
+.back{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.content{
+    width: 450px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid purple;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.poster{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.content textarea{
+    width: 90%;
+    padding: 10px 0;
+    margin: 10px 5px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.content button{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    margin: 10px 5px;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.green{
+    background-color: green; 
+}
+.red{
+
+    background-color: red; 
+}
