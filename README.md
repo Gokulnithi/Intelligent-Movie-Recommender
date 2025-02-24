@@ -15,13 +15,7 @@ A genre-based movie recommendation system built using React, TMDb API, and a TF-
 - **Backend**: Node.js (optional if needed for API proxying)
 - **Machine Learning**: TF-IDF (Term Frequency-Inverse Document Frequency) for text-based recommendations
 - **API**: TMDb API for movie data
-
-## 📸 Screenshots
-
-| Home Page | Recommendations Page |
-|-----------|----------------------|
-| ![Home](screenshots/home.png) | ![Recommendations](screenshots/recommendations.png) |
-
+  
 ## 🎯 How It Works
 
 1. User selects their favorite genres.
@@ -68,5 +62,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 For any queries or feedback, feel free to reach out:
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your-email@example.com
+- GitHub: [@Gokulnithi](https://github.com/Gokulnithi)
+- Email: gokulnithi.p.mts@gmail.com
